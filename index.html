@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="landing">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Order</a>
+                </li>
+            </ul>
+        </div>
+        <!--image slider-->
+        <div id="home" class="slider">
+            <div class="slides">
+                <div class="text">
+                    <h1>Treat Yourself!</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique incidunt, deleniti molestiae deserunt.</p>
+                </div>
+                <!---radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!---slide images-->
+                <div class="slide first">
+                    <img src="images/a.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/b.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/c.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/d.jpeg" alt="">
+                </div>
+                <!--automatic navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!---manual navigation-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn" ></label>
+                <label for="radio2" class="manual-btn" ></label>
+                <label for="radio3" class="manual-btn" ></label>
+                <label for="radio4" class="manual-btn" ></label>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="heading">
+            <h1 class="title">Our Menu</h1>
+            <div class="under-line"></div>
+        </div>
+    </section>
+
+
+
+<script src="jscript.js"></script>
+</body>
+</html>
